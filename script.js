@@ -12,7 +12,7 @@ const PADDLE_MARGIN = 10;
 let playerY = (HEIGHT - PADDLE_HEIGHT) / 2;
 let aiY = (HEIGHT - PADDLE_HEIGHT) / 2;
 const PLAYER_SPEED = 6; // keyboard speed
-const AI_MAX_SPEED = 4.2; // how fast AI can move (tweak difficulty)
+const AI_MAX_SPEED = 1.2; // how fast AI can move (tweak difficulty)
 
 // Ball
 let ballX = WIDTH / 2;
@@ -20,8 +20,8 @@ let ballY = HEIGHT / 2;
 let ballRadius = 8;
 let ballSpeedX = 0;
 let ballSpeedY = 0;
-const BALL_SPEED_START = 4;
-const BALL_SPEED_INCREMENT = 0.35; // speeds up on paddle hit
+const BALL_SPEED_START = 5;
+const BALL_SPEED_INCREMENT = 2.35; // speeds up on paddle hit
 
 // Score
 let playerScore = 0;
